@@ -1,0 +1,173 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.form-label {
+	font-weight: bold;
+}
+label {
+    cursor: pointer;
+}
+p.label {
+    color: #666666;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-shadow: 0 1px 0 #ffffff;
+}
+p.label label {
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 3px;
+    padding: 0;
+    vertical-align: text-bottom;
+}
+
+ul.agc-radio-list.horizontal, ul.agc-checkbox-list.horizontal {
+    overflow: hidden;
+}
+ul.agc-radio-list, ul.agc-checkbox-list {
+    background: transparent;
+    display: block;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+}
+ul.agc-radio-list.horizontal li, ul.agc-checkbox-list.horizontal li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+ul.agc-radio-list li input, ul.agc-checkbox-list li input {
+    margin-right: 5px !important;
+    margin-top: -2px;
+    width: auto !important;
+}
+.agc-input-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.agc-input-table table.widefat {
+    border-collapse: collapse;
+    width: 100%;
+    border:none;
+    border-left:1px solid #e5e5e5;
+}
+table.agc-input-table > tbody > tr {
+    background: #fff;
+    border:1px solid #dfdfdf;
+}
+
+table.agc-input-table > tbody > tr > td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent none repeat scroll 0 0;
+    border-color: #ededed #ededed -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none none;
+    border-width: 1px 1px 0 0;
+    padding: 8px;
+    position: relative;
+}
+table.agc-input-table > tbody > tr > td.agc-input-wrap{
+	padding: 0;
+}
+table.agc-input-table > thead > tr > th.order, table.agc-input-table > tbody > tr > td.order {
+    color: #666;    
+    text-align: center !important;
+    text-shadow: 0 1px 0 #fff;
+    vertical-align: middle;
+    width: 16px !important;
+    background: #dfdfdf;
+}
+table.agc-input-table > thead > tr > th.order .toggle-indicator:before,
+table.agc-input-table > tbody > tr > td.order .toggle-indicator:before{
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+table.agc-input-table > tbody > tr > td {
+    border-top-color: #dfdfdf;
+}
+table.agc_input tbody tr td.label {
+    background: #f9f9f9;
+    border-right: 1px solid #e1e1e1;   
+    vertical-align: top;
+    width: 24%;
+    font-weight: bold;
+}
+table.agc_input tbody tr td{
+	padding: 13px 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+table.agc_input tbody tr:last-child td{
+	border-bottom: none;
+}
+table.agc_input input[type="text"], table.agc_input input[type="number"], table.agc_input textarea, table.agc_input select { 
+	 margin: 0;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+}
+table.agc_input input[type="text"]:focus, table.agc_input textarea:focus, table.agc_input select:focus {
+    border-color: #98b6cb;
+}
+table.agc-input-table > tbody > tr > td.remove {
+    vertical-align: middle;
+    width: 16px !important;
+}
+.agc-footer.right{
+	text-align: right;
+}
+.agc-button {
+    background: #2ea2cc;
+    border: 1px solid #0074a2;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 11px 1px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.agc-button:hover {
+    background-color: #298cba;
+    color: #fff;
+}
+.remove-button {
+	background: #fff url(../images/sprite.png) no-repeat -46px 5px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    display: block;
+    height: 18px;
+    transition: none 0s ease 0s ;
+    width: 18px;
+    border:none;
+    cursor: pointer;
+}
+.remove-button:hover {
+	background-position: -46px -45px;
+	box-shadow: 0 0 3px rgba(211, 14, 22, 0.5);
+}
+.agc-input-table .error{
+	color: #d30e16;
+}
+.agc-input-table .slider_edit_img {
+	vertical-align: middle;
+}
+.merge {
+    width: 100px !important;
+}
